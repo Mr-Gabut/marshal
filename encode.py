@@ -7,10 +7,10 @@ g="\033[1;32m"
 w="\033[1;37m"
 r="\033[1;31m"
 y="\033[1;33m"
+time.sleep(3)
 os.system("clear")
-time.sleep(3)
 print("\033[0;34mSupport \033[1;31mYoutube \033[0;34mAdmin!!")
-time.sleep(3)
+time.sleep(7)
 os.system("xdg-open https://www.youtube.com/channel/UCEg3T9hyhlkDkTPf_kGo4ow")
 aleju = ("""\033[0;34m
      ╔╦╗\033[1;31m┌─┐┬─┐┌─┐┬ ┬┌─┐┬\033[0;34m
