@@ -7,8 +7,8 @@ aleju = ("""
      ╔╦╗┌─┐┬─┐┌─┐┬ ┬┌─┐┬
      ║║║├─┤├┬┘└─┐├─┤├─┤│
      ╩ ╩┴ ┴┴└─└─┘┴ ┴┴ ┴┴─┘
-     Creator : Firzzz
-     Youtube : Firzz Tutorial\n""")
+     [+] Creator : Faizal
+     [+] Youtube : FireMe\n""")
 def aleeju():
         try:
                 print (aleju)
