@@ -11,14 +11,14 @@ os.system("clear")
 aleju = ("""\033[0;34m
      ╔╦╗\033[1;31m┌─┐┬─┐┌─┐┬ ┬┌─┐┬\033[0;34m
      ║║║\033[1;31m├─┤├┬┘└─┐├─┤├─┤│\033[0;34m
-     ╩ ╩┴\033[1;31m ┴┴└─└─┘┴ ┴┴ ┴┴─┘
+     ╩ ╩\033[1;31m┴ ┴┴└─└─┘┴ ┴┴ ┴┴─┘
      \033[1;33m[\033[1;37m+\033[1;33m] \033[1;37mCreator : \033[1;32mFaizal
      \033[1;33m[\033[1;37m+\033[1;33m] \033[1;37mYoutube : \033[1;32mFireMe\n""")
 def aleeju():
         try:
                 print (aleju)
-                print ('   [-] Contoh > /sdcard/file.py')
-                file = input ('   [-] File Kamu : ')
+                print ('   \033[1;33m[\033[1;37m-\033[1;33m] \033[1;37mContoh > /sdcard/file.py')
+                file = input ('   \033[1;33m[\033[1;37m-\033[1;33m] \033[1;37mFile Kamu : ')
                 fileopen = open(file).read()
                 a = compile(fileopen, 'dg', 'exec')
                 m = marshal.dumps(a)
